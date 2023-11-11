@@ -1,4 +1,4 @@
-import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
+import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "./react/jsx-runtime";
 import MainPostInfo from "./components/MainPostInfo/MainPostInfo";
 import ListStation from "./components/ListStations/ListStation";
 import SearchBar from "./components/SearchBar/SearchBar";
