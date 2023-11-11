@@ -1,0 +1,17 @@
+.popup {
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    background-color: #fff; /* used to be #000 */
+    color: #222; /* used to be #fff */
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-family: "Calibri";
+    z-index: 999;
+    max-width: 200px;
+    text-align: left;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transform: translate(-50%, -50%);
+  }
+  

@@ -1,0 +1,55 @@
+.secondpost {
+  width: calc(100% - 80px); 
+  padding: 10px;
+}
+.listcard {
+    width: calc(100% + 60px);
+    display:grid;
+    background-color: #ffffffcb; /* use to be #333 */
+    border: 1px solid #444;
+    color: #222; /* use to be white */
+    border-radius: 10px;
+    border-color: black;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s;
+    margin: 0 auto; 
+  }
+  
+  .listcard:hover {
+    background-color: #fff; /* use to be #222 */
+  }
+  
+
+.secondpost .location {
+font-size: 14px;
+  display: flex;
+  align-items: center;
+  font-family: Calibri;
+  color: #222; /* use to be #8a8585 */
+}
+
+.secondpost .futuristic-title {
+  font-size: 24px;
+  color: #26678a; 
+}
+
+
+.secondpost .futuristic-info {
+  font-size: 10px;
+  color: #222; /* use to be #818181 */
+  text-align: left;
+  font-family: Calibri;
+}
+
+ .aqi {
+  size: 20px;
+  }
+
+ 
+
+
+
+
+
+

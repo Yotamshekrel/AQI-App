@@ -1,0 +1,34 @@
+.container{
+  max-width: 1080px;
+  margin: 20px auto;
+}
+body{
+  background-image: url("/icons/forest.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.linkedin-wrapper {
+  position: absolute;
+  bottom: 10px;
+  left: 42%;
+  text-align: center;
+  background-color: #0b652db7;
+}
+
+.linkedin-link {
+  color:#fff;
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin-link > * {
+  margin: 0 5px;
+}
+
+.linkedin-logo {
+  height: 20px;
+}
+
+

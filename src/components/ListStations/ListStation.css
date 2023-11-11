@@ -1,0 +1,17 @@
+.list-group {
+  list-style: none;
+  margin: 20px 0; 
+  width:325px;
+  margin: 10px auto 10px; /* Add some top margin */
+}
+
+  .list-group-item {
+    height: 115px;
+    width:105%;
+    padding-top: 0;
+    padding-right: 0px;
+    border: 0px;
+    background-color: transparent;
+    padding-top: 0px;
+}
+  

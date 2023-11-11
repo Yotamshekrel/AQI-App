@@ -1,0 +1,68 @@
+.mainpostinfo {
+  position: fixed;
+  top: 100px;
+  right: 280px;
+  align-items: center;
+}
+
+.futuristic-card-info {
+  background-color: #ffffffab; /* use to be #22222cd */
+  border: 1px solid #444;
+  color: #222; /* use to be white */
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s;
+}
+
+.futuristic-card-info:hover {
+  background-color: #fff; /* use to be #333 */
+}
+
+.table-split {
+  width: auto; 
+  margin: 10px 0;
+  border: 1px solid #555;
+  color: black; 
+  font-family: "Calibri";
+}
+
+.table-split th,
+.table-split td {
+  padding: 5px; 
+  text-align: left;
+  border: none;
+}
+
+.table-split tr:nth-child(odd) {
+  background-color: rgba(255, 255, 255, 0.701);
+}
+.table-split tr:nth-child(even) {
+  background-color: #c0bfbf;
+}
+
+.table-split tr:hover {
+  background-color: #9e9e9e; /* use to be #555 */
+  cursor: pointer;
+}
+
+.table-split td {
+  font-size: 11px; 
+}
+
+.popup {
+  position: fixed;
+  top: 250px;
+  right: -50px;
+  background-color: #fff; /* used to be #000 */
+  color: #222; /* used to be #fff */
+  padding: 5px;
+  border-radius: 10px;
+  font-size: 14px;
+  font-family: "Calibri";
+  z-index: 999;
+  max-width: 200px;
+  text-align: left;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transform: translate(-50%, -50%);
+}
