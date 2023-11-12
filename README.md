@@ -12,16 +12,15 @@ This project was created as a learning exercise and a demonstration of React, as
 * **Interactive Design:**
 Experience an interactive interface with dynamic features such as color changes and other visual elements. The app's engaging design enhances user experience and makes exploring air quality data more enjoyable.
 
-
-## **Demo** - Deployed over Github Pages
-XXXXXXXXXXXXXXXXXXXXXXXXXX (do not change)
-
 ## **APIs Used**
 * Geolocation
 * GeoDB Cities
 * The World Air Quality Project
 
-  
-Thank you for checking it out.
-I hope you enjoy using the AQI App! 
-Want to hear more? Connect with me on LinkedIn.
+## **Demo** - Deployed over Github Pages
+### [Click here!](https://yotamshekrel.github.io/AQI-App/)
+
+##
+I hope you enjoy using the AQI App!  
+
+Want to hear more? Connect with me on [LinkedIn](https://www.linkedin.com/in/yotam-shekrel/).
