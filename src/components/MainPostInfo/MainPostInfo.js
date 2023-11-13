@@ -1,6 +1,7 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useState } from "react";
 import "./MainPostInfo.css";
+
 const names = {
     pm25: "PM<sub>2.5</sub>",
     pm10: "PM<sub>10</sub>",
@@ -61,7 +62,7 @@ const MainPostInfo = ({ infoVisual, stationInfo }) => {
             return null;
         })
             .filter((row) => row !== null);
-        return (_jsxs("div", { className: "mainpostinfo", children: [_jsxs("div", { className: "futuristic-card-info", children: [_jsx("div", { className: "futuristic-title", children: "Additional Info" }), _jsx("table", { className: "table-split", children: _jsxs("tbody", { children: [_jsx("tr", {}), tableData] }) })] }), hoveredFeature && _jsx("div", { className: "popup", children: hoveredFeature })] }));
+        return (_jsxs("div", { className: "mainpostinfo", children: [_jsxs("div", { className: "futuristic-card-info", children: [_jsx("div", { className: "futuristic-title", children: "Additional Info" }), _jsx("table", { className: "table-split", children: _jsxs("tbody", { children: [_jsx("tr", {}), tableData] }) })] }), hoveredFeature && _jsx("div", { className: "infopopup", children: hoveredFeature })] }));
     }
     else {
         return null;

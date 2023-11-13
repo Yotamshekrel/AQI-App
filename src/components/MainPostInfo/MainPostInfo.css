@@ -1,7 +1,7 @@
 .mainpostinfo {
   position: fixed;
-  top: 100px;
-  right: 280px;
+  top: 70px;
+  right: 250px;
   align-items: center;
 }
 
@@ -50,10 +50,10 @@
   font-size: 11px; 
 }
 
-.popup {
-  position: fixed;
-  top: 250px;
-  right: -50px;
+.infopopup {
+  position:absolute;
+  top: 150px;
+  left: 300px;
   background-color: #fff; /* used to be #000 */
   color: #222; /* used to be #fff */
   padding: 5px;
@@ -61,6 +61,7 @@
   font-size: 14px;
   font-family: "Calibri";
   z-index: 999;
+  width: 200px;
   max-width: 200px;
   text-align: left;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
