@@ -4,9 +4,10 @@ import ListStation from "./components/ListStations/ListStation";
 import SearchBar from "./components/SearchBar/SearchBar";
 import MainPost from "./components/MainPost/MainPost";
 import { useLocation } from "./API/LocationApi";
-import { useEffect, useState } from "react";
+import { useEffect, useState } from "/";
 import { search } from "./Back";
 import "./App.css";
+
 function App() {
     //MainPost
     const userLocation = useLocation();
