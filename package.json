@@ -1,8 +1,8 @@
 {
-  "homepage": "https://yotamshekrel.github.io/AQI-App",
   "name": "aqi-app",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://yotamshekrel.github.io/AQI-App",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
